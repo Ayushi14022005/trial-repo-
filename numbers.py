@@ -6,3 +6,11 @@ end = 10
 def findsumnos(num):
      if num == start:
           return num
+               else :
+          return num + findsumnos(num-1)
+     
+sumofnums=(findsumnos(10))
+
+print (sumofnums)
+
+
